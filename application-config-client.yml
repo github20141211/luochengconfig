@@ -7,9 +7,9 @@ spring:
     spring:
         profiles: dev
         application:
-            name: microconfig-test-dev
+            name: microconfig-config-client
 ---
     spring:
-            profiles: default            
+            profiles: beta            
             application:
-                name: microconfig-test-default
+                name: microconfig-config-client
